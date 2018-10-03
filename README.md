@@ -1,6 +1,8 @@
 
-# Create a very simple application using Python to demonstrate continious integration using GitHub
+# Continuous integration example
 
+## Description
+Create a very simple application using Python to demonstrate the usage of continuous integration using [GitHub](https://github.com/) and [Travis](https://travis-ci.org).
 
 ## Installation
 ```
@@ -41,3 +43,6 @@ script:
 git add .; git commit -m 'add ci files'
 git push
 ```
+
+Go to [Travis dashboard](https://travis-ci.org/), connect your Github account then sync your repositories and add the new project.
+After every code commit, a build will start automatically and you will be notified by email on its status.
